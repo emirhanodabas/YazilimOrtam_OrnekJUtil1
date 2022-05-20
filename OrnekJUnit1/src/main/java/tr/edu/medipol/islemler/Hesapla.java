@@ -6,6 +6,18 @@ public class Hesapla {
 			
 		return sayi1+sayi2;
 	}
+	static int cikar(int sayi1,int sayi2){
+		
+		return sayi1-sayi2;
+	}
+	static int bol(int sayi1,int sayi2){
+		
+		return sayi1/sayi2;
+	}
+	static int carp(int sayi1,int sayi2){
+		
+		return sayi1*sayi2;
+	}
 	static int topla(int ... sayilar){
 		int toplamsonuc=0;
 		for (int sayi : sayilar) {
@@ -29,7 +41,7 @@ public class Hesapla {
 	}
 	public static void main(String[] args) {
 		
-		int sonuc=topla(243,654);
+		int sonuc=carp(12,4);
 		System.out.println("243+654 = "+sonuc);
 	
 	}

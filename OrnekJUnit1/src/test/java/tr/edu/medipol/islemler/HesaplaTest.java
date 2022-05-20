@@ -19,6 +19,36 @@ public class HesaplaTest {
 		assertEquals(beklenesonuc,sonuc);
 	}
 	@Test
+	public void testikiSayicikar() {
+		int sayi1=520;
+		int sayi2=108;
+		int beklenesonuc=412;
+		
+		int sonuc= fixture.cikar(sayi1,sayi2);
+		
+		assertEquals(beklenesonuc,sonuc);
+	}
+	@Test
+	public void testikiSayibol() {
+		int sayi1=64;
+		int sayi2=4;
+		int beklenesonuc=16;
+		
+		int sonuc= fixture.bol(sayi1,sayi2);
+		
+		assertEquals(beklenesonuc,sonuc);
+	}
+	@Test
+	public void testikiSayicarp() {
+		int sayi1=12;
+		int sayi2=4;
+		int beklenesonuc=48;
+		
+		int sonuc= fixture.carp(sayi1,sayi2);
+		
+		assertEquals(beklenesonuc,sonuc);
+	}
+	@Test
 	public void testdortSayiTopla() {
 		int sayi1=435;
 		int sayi2=534;
